@@ -55,4 +55,3 @@
     { name: 'Contact', path: '/#contact' }
   ]
   </script>
-  
