@@ -1,6 +1,6 @@
 <template>
-    <header class="max-w-auto max-h-[146px] fixed top-0 left-0 right-0 bg-[#DDB892] py-4">
-       <div class="max-w-[1224px] max-h-[76px] mx-[108px] flex justify-between items-center">
+    <header class="max-w-auto max-h-[146px] mx-auto fixed top-0 left-0 right-0 bg-[#DDB892] py-4 z-[1000]">
+       <div class=" max-w-screen-xl w-[1226px] max-h-[76px] mx-auto flex justify-between items-center">
          <!-- Logo -->
          <div class="logo">
            <img 

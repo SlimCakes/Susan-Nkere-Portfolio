@@ -1,13 +1,16 @@
 <template>
       <!-- About Section -->
-      <section class="py-16 border-t border-gray-200">
-        <h2 class="text-sm text-gray-600 mb-8">About Me</h2>
+      <section class="max-w-">
+        <div class="flex items-center justify-start w-[1180px] mt-[328px] mb-[100px] gap-40 mx-auto">
+          <h2 class="text-[32px] font-primary text-[#333333] w-[140px]">About Me</h2>
+          <div class="w-[923px] h-[4px] bg-[#DBC1AC]"></div>
+        </div>
         
-        <h3 class="text-4xl mb-8">Hello there!</h3>
+        <h3 class="text-[96px] font-primary font-semibold text-[#333333]">Hello there!</h3>
         <div class="grid grid-cols-2 gap-16">
           <!-- Left Column: Text Content -->
           <div class="space-y-8">
-            <p class="text-gray-700">
+            <p class="text-[24px] font-secondary font-normal text-[#333333]">
               I'm Susan, a UX/UI & product designer, from Nigeria. From mobile applications 
               to websites to personal portfolios, I specialise in building visually appealing 
               and user centered designs. I strive to develop key features such as empathy, 
@@ -16,10 +19,10 @@
             </p>
 
             <!-- Skills and Software Grid -->
-            <div class="grid grid-cols-2 gap-8">
+            <div class="grid grid-cols-2 gap-40">
               <div>
-                <h4 class="font-bold mb-4">Skills</h4>
-                <ul class="space-y-2 text-gray-700">
+                <h4 class="text-[36px] font-primary font-medium text-[#333333] mb-4">Skills</h4>
+                <ul class="text-[24px] font-secondary font-normal text-[#333333] space-y-2 w-[350px]">
                   <li>UI/UX Design</li>
                   <li>Typography and Color Theory</li>
                   <li>Prototyping</li>
@@ -33,8 +36,8 @@
                 </ul>
               </div>
               <div>
-                <h4 class="font-bold mb-4">Software</h4>
-                <ul class="space-y-2 text-gray-700">
+                <h4 class="text-[36px] font-primary font-medium text-[#333333] mb-4">Software</h4>
+                <ul class="text-[24px] font-secondary font-normal text-[#333333] space-y-2 w-[392px]">
                   <li>Figma</li>
                   <li>Adobe XD</li>
                   <li>VScode</li>
@@ -46,13 +49,11 @@
           </div>
 
           <!-- Right Column: Image -->
-          <div class="relative">
-            <div class="w-full aspect-square rounded-lg bg-[#DBC1AC] bg-opacity-20"></div>
+          <div class="flex flex-1 items-start justify-start">
             <img 
-              src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1727260514/Headshot_1_zeqicq.jpg"
+              src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1735330104/Group_11_vqrtho.png"
               alt="Profile"
-              class="absolute inset-0 w-full h-full object-cover rounded-lg"
-            />
+              class="w-[742px] h-[1017px] object-cover" />
           </div>
         </div>
       </section>
