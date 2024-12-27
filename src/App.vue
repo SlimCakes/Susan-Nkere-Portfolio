@@ -1,28 +1,42 @@
+<!-- App.vue -->
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <NavBar />
-    <router-view v-slot="{ Component }">
-      <transition name="fade" mode="out-in">
-        <component :is="Component" />
-      </transition>
-    </router-view>
-    <Footer />
+  <div class="flex flex-col min-h-screen">
+    <NavBarComponent class="w-full" />
+    <main class="flex-1 flex flex-col">
+      <HeroComponent />
+      <AboutComponent />
+      <PortfolioComponent />
+      <FooterComponent />
+    </main>
   </div>
 </template>
 
-<script setup lang="ts">
-import NavBar from './components/layout/NavBar.vue';
-import Footer from './components/layout/Footer.vue'
+<script>
+import HeroComponent from '@/components/HeroComponent.vue'
+import AboutComponent from '@/components/AboutComponent.vue'
+import PortfolioComponent from '@/components/PortfolioComponent.vue'
+import NavBarComponent from './components/NavBarComponent.vue'
+import FooterComponent from '@/components/FooterComponent.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HeroComponent,
+    AboutComponent,
+    PortfolioComponent,
+    NavBarComponent,
+    FooterComponent,
+  },
+}
 </script>
 
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s ease;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
+#app {
+  min-height: 100vh;
 }
 </style>
