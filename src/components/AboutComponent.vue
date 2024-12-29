@@ -48,17 +48,17 @@
           </div>
         </div>
       </div>
+      </div>
 
       <!-- Right Column: Image -->
-      <div class="relative">
-          <div className="absolute">
+      <div class="absolute top-[1178px] left-[720px] w-[742px]">
+          <div class="absolute">
         <img 
           src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1735330104/Group_11_vqrtho.png"
           alt="Profile"
-          class="relative z-10 w-full h-auto object-cover" />
+          class="relative z-10 w-[742px] h-[1017px] object-cover" />
       </div>
       </div>
-    </div>
     </div>
   </section>
 
