@@ -56,35 +56,46 @@
         <img 
           src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1735330104/Group_11_vqrtho.png"
           alt="Profile"
-          class="relative z-10 w-[742px] h-[1017px] object-cover" />
+          class="relative z-10 w-[742px] h-[1017px] object-cover"/>
       </div>
       </div>
     </div>
   </section>
 
   <!-- Work Experience Section -->
-  <section class="mt-[140px] py-16">
-    <div class="w-[923px] h-[4px] bg-[#DBC1AC] mb-4"></div>
-    <div class="grid grid-cols-[2fr,1fr] gap-[64px]">
-      <div class="w-[808px]">
-        <h3 class="text-[36px] font-primary font-medium">Work Experience</h3>
-        <div class="space-y-8 grid grid-cols-2>
+  <section class="mt-[140px] py-16 max-w-[1440px] mx-autoo px-[108px]">
+    <div class="w-[1224px] h-[4px] bg-[#DBC1AC] mb-8"></div>
+
+        <div class="flex">
+        <!-- Left Side: Work Experience -->
+        <div class="gap-[64px] grid grid-cols-[808px,348px]">
+          <div class=" grid grid-rows-4 max-w-[1180px]">
+          <h3 class="text-[36px] font-primary font-medium">Work Experience</h3>
+
+          <div>
           <div v-for="(job, index) in workExperience" :key="index">
-            <div class="flex gap-8">
-              <div class="w-48">
-                <p class="text-sm text-gray-600">{{ job.period }}</p>
-                <p class="font-medium">{{ job.company }}</p>
-                <p class="text-sm text-gray-600">{{ job.role }}</p>
+            <div class="grid grid-cols-[309px,492px] gap-[4px]">
+              <!-- Left column: Period -->
+              <div>
+                <p class="text-[20px] font-secondary font-semibold w-[309px]">{{ job.period }}</p>
               </div>
-              <ul class="list-disc space-y-2 ml-4">
-                <li v-for="(point, idx) in job.points" :key="idx">{{ point }}</li>
-              </ul>
+              
+              <!-- Right column: Job Details -->
+              <div class="w-[492px]">
+                <p class="font-medium text-[24px] font-secondary">{{ job.company }}</p>
+                <p class="text-[16px] font-secondary font-normal">{{ job.role }}</p>
+                <ul class="list-disc space-y-2 mt-4 ml-4 text-sm">
+                  <li v-for="(point, idx) in job.points" :key="idx">
+                    {{ point }}
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+</div>
 
-      <div>
+        <div class="w-[384px]">
         <h3 class="text-2xl mb-8">Education</h3>
         <div class="space-y-6">
           <div v-for="(edu, index) in education" :key="index">
@@ -94,7 +105,9 @@
           </div>
         </div>
       </div>
-    </div>
+        </div>
+        </div>
+
   </section>
 
   <!-- Contact Section -->
