@@ -63,11 +63,12 @@
   </section>
 
   <!-- Work Experience Section -->
-  <section class="py-16 border-t border-gray-200">
-    <div class="grid grid-cols-[2fr,1fr] gap-16">
-      <div>
-        <h3 class="text-2xl mb-8">Work Experience</h3>
-        <div class="space-y-8">
+  <section class="mt-[140px] py-16">
+    <div class="w-[923px] h-[4px] bg-[#DBC1AC] mb-4"></div>
+    <div class="grid grid-cols-[2fr,1fr] gap-[64px]">
+      <div class="w-[808px]">
+        <h3 class="text-[36px] font-primary font-medium">Work Experience</h3>
+        <div class="space-y-8 grid grid-cols-2>
           <div v-for="(job, index) in workExperience" :key="index">
             <div class="flex gap-8">
               <div class="w-48">
