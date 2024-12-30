@@ -7,8 +7,8 @@
   <!-- Left Column: UX/UI Designer, Portfolio, Horizontal Line, and Name -->
   <div class="flex flex-col">
     <div class="w-[1000px] h-[309px]">
-  <p class="text-[48px] font-secondary font-normal">UX/UI Designer</p>
-  <h1 class="text-[128px] font-primary font-semibold">Portfolio</h1>
+  <p class="text-[48px] font-secondary font-normal text-[#333333]">UX/UI Designer</p>
+  <h1 class="text-[128px] font-primary font-semibold text-[#333333}]">Portfolio</h1>
 </div>
     <div class="flex items-center justify-start w-[1144px] mt-[100px]">
       <div class="w-[923px] h-[4px] bg-[#DBC1AC]"></div>
