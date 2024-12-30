@@ -6,7 +6,7 @@
         <!-- Left Side: Work Experience -->
         <div class="grid grid-cols-[808px,348px] gap-[24px]">
           <div class="max-w-[1180px]">
-          <h3 class="text-[36px] font-primary font-medium mb-[16px] text-[#333333]">Work Experience</h3>
+          <h3 class="text-[36px] font-primary font-medium my-[20px] text-[#333333]">Work Experience</h3>
 
           <div v-for="(job, index) in workExperience" :key="index">
             <div class="grid grid-cols-[309px,492px] gap-[4px]">
@@ -19,7 +19,7 @@
               <div class="w-[492px]">
                 <p class="font-medium text-[24px] font-secondary text-[#333333]">{{ job.company }}</p>
                 <p class="text-[16px] font-secondary font-normal text-[#6C757D]">{{ job.role }}</p>
-                <ul class="list-disc space-y-2 text-[20px] font-secondary font-normal w-[492px] mt-[16px]">
+                <ul class="list-disc space-y-2 text-[20px] font-secondary font-normal w-[492px] mt-[16px] text-[#333333]">
                   <li v-for="(point, idx) in job.points" :key="idx">
                     {{ point }}
                   </li>
@@ -30,26 +30,31 @@
         </div>
 
         <div class="w-[348px]">
-        <h3 class="text-[36px] font-primary font-medium">Education</h3>
-        <div class="space-y-6">
+        <h3 class="text-[36px] font-primary font-medium my-[20px]">Education</h3>
+        <div class="space-y-2">
           <div v-for="(edu, index) in education" :key="index">
             <p class="text-[24px] font-secondary font-medium text-[#333333]">{{ edu.school }}</p>
-            <p class="text-[16px] font-secondary font-normal text-[#6C757D]">{{ edu.course }}</p>
-            <p class="text-sm">{{ edu.year }}</p>
+            <p class="text-[16px] font-secondary font-normal text-[#6C757D] mt-[4px]">{{ edu.course }}</p>
+            <p class="text-[16px] font-secondary font normal text-[#6c757d] mt-[2px]">{{ edu.year }}</p>
           </div>
         </div>
-      </div>
-        </div>
-        </div>
-  </section>
 
-  <!-- Contact Section -->
-  <section class="py-16 border-t border-gray-200">
-    <h3 class="text-2xl mb-4">Contact Me</h3>
-    <div class="flex gap-4">
-      <a href="#" class="text-gray-600 hover:text-black">LinkedIn</a>
-      <a href="#" class="text-gray-600 hover:text-black">GitHub</a>
-      <a href="#" class="text-gray-600 hover:text-black">Behance</a>
+        <section class="mt-[48px]">
+  <h3 class="text-[36px] font-primary font-medium mb-[16px]">Contact Me</h3>
+  <div class="grid grid-cols-3 gap-2">
+    <a href="#" class="hover:opacity-80">
+      <img src="assets/Icons/u_linkedin.svg" alt="LinkedIn" class="w-8 h-8"/>
+    </a>
+    <a href="#" class="hover:opacity-80">
+      <img src="assets/Icons/u_instagram-alt.svg" alt="Instagram" class="w-8 h-8"/>
+    </a>
+    <a href="#" class="hover:opacity-80">
+      <img src="assets/Icons/u_behance.svg" alt="Behance" class="w-8 h-8"/>
+    </a>
+  </div>
+</section>
+    </div>
+    </div>
     </div>
   </section>
 </template>
