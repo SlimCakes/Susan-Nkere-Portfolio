@@ -43,13 +43,13 @@
   <h3 class="text-[36px] font-primary font-medium mb-[16px]">Contact Me</h3>
   <div class="grid grid-cols-3 gap-2">
     <a href="#" class="hover:opacity-80">
-      <img src="assets/Icons/u_linkedin.svg" alt="LinkedIn" class="w-8 h-8"/>
+      <img src="assets/u_linkedin.svg" alt="LinkedIn" class="w-8 h-8"/>
     </a>
     <a href="#" class="hover:opacity-80">
-      <img src="assets/Icons/u_instagram-alt.svg" alt="Instagram" class="w-8 h-8"/>
+      <img src="assets/u_instagram-alt.svg" alt="Instagram" class="w-8 h-8"/>
     </a>
     <a href="#" class="hover:opacity-80">
-      <img src="assets/Icons/u_behance.svg" alt="Behance" class="w-8 h-8"/>
+      <img src="assets/u_behance.svg" alt="Behance" class="w-8 h-8"/>
     </a>
   </div>
 </section>
