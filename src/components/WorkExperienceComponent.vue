@@ -60,35 +60,56 @@
 </template>
 
 <script>
+import linkedinIcon from '@/assets/u_linkedin.svg'
+import instagramIcon from '@/assets/u_instagram-alt.svg'
+import behanceIcon from '@/assets/u_behance.svg'
+
 export default {
-data() {
-return {
-  workExperience: [
-    {
-      period: 'May 2024 - Present',
-      company: '525System • Calabar',
-      role: 'UI/UX Designer, Coordinator',
-      points: [
-        'Conducted user research, developed design protocols for Mobile Application, website, and admin dashboard.',
-        'Designed 350+ screens for mobile application, website, and Admin dashboard.',
-        'Spearheaded the designs and development of the Application and Company website.',
-        'Collaborated with the development team to achieve Application deployment set for launch date.'
+  data() {
+    return {
+      workExperience: [
+        {
+          period: 'May 2024 - Present',
+          company: '525System • Calabar',
+          role: 'UI/UX Designer, Coordinator',
+          points: [
+            'Conducted user research, developed design protocols for Mobile Application, website, and admin dashboard.',
+            'Designed 350+ screens for mobile application, website, and Admin dashboard.',
+            'Spearheaded the designs and development of the Application and Company website.',
+            'Collaborated with the development team to achieve Application deployment set for launch date.'
+          ]
+        }
+      ],
+      education: [
+        {
+          school: 'National Open University of Calabar',
+          course: 'Health Education - In Progress',
+          year: '2024'
+        },
+        {
+          school: 'University of Calabar',
+          course: 'Human Physiology',
+          year: '2021'
+        }
+      ],
+      socialLinks: [
+        {
+          name: 'LinkedIn',
+          icon: linkedinIcon,
+          url: '#'
+        },
+        {
+          name: 'Instagram',
+          icon: instagramIcon,
+          url: '#'
+        },
+        {
+          name: 'Behance',
+          icon: behanceIcon,
+          url: '#'
+        }
       ]
     }
-  ],
-  education: [
-    {
-      school: 'National Open University of Calabar',
-      course: 'Health Education - In Progress',
-      year: '2024'
-    },
-    {
-      school: 'University of Calabar',
-      course: 'Human Physiology',
-      year: '2021'
-    }
-  ]
-}
-}
+  }
 }
 </script>
