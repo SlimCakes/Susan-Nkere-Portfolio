@@ -72,7 +72,6 @@
           <div class=" grid grid-rows-4 max-w-[1180px]">
           <h3 class="text-[36px] font-primary font-medium">Work Experience</h3>
 
-          <div>
           <div v-for="(job, index) in workExperience" :key="index">
             <div class="grid grid-cols-[309px,492px] gap-[4px]">
               <!-- Left column: Period -->
@@ -84,7 +83,7 @@
               <div class="w-[492px]">
                 <p class="font-medium text-[24px] font-secondary">{{ job.company }}</p>
                 <p class="text-[16px] font-secondary font-normal">{{ job.role }}</p>
-                <ul class="list-disc space-y-2 mt-4 ml-4 text-sm">
+                <ul class="list-disc space-y-2 text-[] w-[492px]">
                   <li v-for="(point, idx) in job.points" :key="idx">
                     {{ point }}
                   </li>
@@ -93,10 +92,9 @@
             </div>
           </div>
         </div>
-</div>
 
         <div class="w-[384px]">
-        <h3 class="text-2xl mb-8">Education</h3>
+        <h3 class="text-[36px] font-primary font-medium">Education</h3>
         <div class="space-y-6">
           <div v-for="(edu, index) in education" :key="index">
             <p class="font-medium">{{ edu.school }}</p>
