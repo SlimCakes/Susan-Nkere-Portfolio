@@ -60,9 +60,9 @@
 </template>
 
 <script>
-import linkedinIcon from '@/assets/u_linkedin.svg'
-import instagramIcon from '@/assets/u_instagram-alt.svg'
-import behanceIcon from '@/assets/u_behance.svg'
+import uLinkedin from '/src/assets/u_linkedin.svg'
+import uInstagram from '/src/assets/u_instagram-alt.svg'
+import uBehance from '/src/assets/u_behance.svg'
 
 export default {
   data() {
@@ -95,17 +95,17 @@ export default {
       socialLinks: [
         {
           name: 'LinkedIn',
-          icon: linkedinIcon,
+          icon: uLinkedin,
           url: '#'
         },
         {
           name: 'Instagram',
-          icon: instagramIcon,
+          icon: uInstagram,
           url: '#'
         },
         {
           name: 'Behance',
-          icon: behanceIcon,
+          icon: uBehance,
           url: '#'
         }
       ]
