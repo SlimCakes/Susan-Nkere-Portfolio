@@ -30,7 +30,7 @@
         </div>
 
         <div class="w-[348px]">
-        <h3 class="text-[36px] font-primary font-medium my-[20px]">Education</h3>
+        <h3 class="text-[36px] font-primary font-medium my-[20px] text-[#333333]">Education</h3>
         <div class="space-y-2">
           <div v-for="(edu, index) in education" :key="index">
             <p class="text-[24px] font-secondary font-medium text-[#333333]">{{ edu.school }}</p>
@@ -40,8 +40,8 @@
         </div>
 
         <section class="mt-[48px]">
-  <h3 class="text-[36px] font-primary font-medium mb-[16px]">Contact Me</h3>
-  <div class="grid grid-cols-[48px, 48px, 48px] gap-[24px]">
+  <h3 class="text-[36px] font-primary font-medium mb-[16px] text-[#333333]">Contact Me</h3>
+  <div class="grid grid-cols-[48px,48px,48px] gap-[24px]">
     <div class="hover:opacity-80">
       <img src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1735928366/u_linkedin_gmhekn.svg" alt="LinkedIn" class="w-[48px] h-[48px]"/>
     </div>
