@@ -42,13 +42,13 @@
         <section class="mt-[48px]">
   <h3 class="text-[36px] font-primary font-medium mb-[16px]">Contact Me</h3>
   <div class="grid grid-cols-3 gap-2">
-    <a href="#" class="hover:opacity-80">
+    <a class="hover:opacity-80">
       <img src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1735928366/u_linkedin_gmhekn.svg" alt="LinkedIn" class="w-8 h-8"/>
     </a>
-    <a href="#" class="hover:opacity-80">
+    <a class="hover:opacity-80">
       <img src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1735928402/u_instagram_kxbnkx.svg" alt="Instagram" class="w-8 h-8"/>
     </a>
-    <a href="#" class="hover:opacity-80">
+    <a class="hover:opacity-80">
       <img src="https://res.cloudinary.com/dxgoaa5mn/image/upload/v1735928349/u_behance-alt_xjmph6.svg" alt="Behance" class="w-8 h-8"/>
     </a>
   </div>
@@ -88,24 +88,7 @@ export default {
           course: 'Human Physiology',
           year: '2021'
         }
-      ],
-      socialLinks: [
-        {
-          name: 'LinkedIn',
-          icon: uLinkedin,
-          url: '#'
-        },
-        {
-          name: 'Instagram',
-          icon: uInstagram,
-          url: '#'
-        },
-        {
-          name: 'Behance',
-          icon: uBehance,
-          url: '#'
-        }
-      ]
+      ], 
     }
   }
 }
