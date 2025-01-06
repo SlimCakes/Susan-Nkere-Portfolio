@@ -6,10 +6,10 @@
       <div class="w-[923px] h-[4px] bg-[#DBC1AC]"></div>
     </div>
     <!-- Main content grid -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-16 mb-[1200px]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-[14px] gap-y-[14px] mb-[493px]">
       <!-- Independent UX/UI Designs -->
       <div>
-        <div class="relative w-[547px]">
+        <div class="relative w-[547px] mt-[84px]">
           <!-- Vertical line -->
           <div class="absolute left-0 top-0 w-[3px] h-[198px] bg-[#DBC1AC]"></div>
           
@@ -31,7 +31,7 @@
 
       <!-- Collaborative UX/UI Designs -->
       <div>
-        <div class="relative w-[544px]">
+        <div class="relative w-[544px] mt-[337px]">
           <!-- Vertical line -->
           <div class="absolute left-0 top-0 w-[4px] h-[198px] bg-[#DBC1AC]"></div>
           
