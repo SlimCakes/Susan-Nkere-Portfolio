@@ -5,42 +5,51 @@
       <h2 class="text-[32px] font-primary text-[#333333] w-[153px]">2023-2024</h2>
       <div class="w-[923px] h-[4px] bg-[#DBC1AC]"></div>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-16">
+    <!-- Main content grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-16 mb-[1200px]">
       <!-- Independent UX/UI Designs -->
-      <div class="space-y-8">
-        <div class="relative pl-8 border-l border-orange-300">
-          <span class="absolute -left-3 top-3 w-6 h-px bg-orange-300"></span>
-          <h3 class="text-4xl text-gray-800 font-light mb-8">
-            <span class="text-xl mr-2">01.</span>
-            Independent UX/UI Designs
-          </h3>
-          <ul class="space-y-4 text-gray-700">
-            <li>1. Traclet- Mobile application</li>
-            <li>2. Traclet- Landing page</li>
-            <li>3. Traclet- Admin dashboard</li>
-            <li>4. UBA mobile application redesign</li>
-            <li>5. 525System- company website</li>
-          </ul>
+      <div>
+        <div class="relative w-[547px]">
+          <!-- Vertical line -->
+          <div class="absolute left-0 top-0 w-[3px] h-[198px] bg-[#DBC1AC]"></div>
+          
+          <div class="pl-12">
+            <h3 class="w-[515px] text-[40px] text-[#333333] font-medium font-primary mb-[16px]">
+              <span class="text-[40px] font-normal font-primary text-[#6C757D] mr-1">01.</span>
+              Independent UX/UI Designs
+            </h3>
+            <ul class="space-y-6 text-[24px] text-[#333333] font-secondary">
+              <li>1. Traclet- Mobile application</li>
+              <li>2. Traclet- Landing page</li>
+              <li>3. Traclet- Admin dashboard</li>
+              <li>4. UBA mobile application redesign</li>
+              <li>5. 525System- company website</li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <!-- Collaborative UX/UI Designs -->
-      <div class="space-y-8">
-        <div class="relative pl-8 border-l border-orange-300">
-          <span class="absolute -left-3 top-3 w-6 h-px bg-orange-300"></span>
-          <h3 class="text-4xl text-gray-800 font-light mb-8">
-            <span class="text-xl mr-2">02.</span>
-            Collaborative UX/UI Designs
-          </h3>
-          <ul class="space-y-4 text-gray-700">
-            <li>1. Dc Food Bank</li>
-            <li>2. Everest Crest High</li>
-            <li>3. Weather for Two</li>
-          </ul>
+      <div>
+        <div class="relative w-[544px]">
+          <!-- Vertical line -->
+          <div class="absolute left-0 top-0 w-[4px] h-[198px] bg-[#DBC1AC]"></div>
+          
+          <div class="pl-12">
+            <h3 class="w-[515px] text-[40px] text-[#333333] font-medium font-primary mb-[16px]">
+              <span class="text-[40px] font-normal font-primary text-[#6C757D] mr-1">02.</span>
+              Collaborative UX/UI Designs
+            </h3>
+            <ul class="space-y-6 text-[24px] text-[#333333] font-secondary">
+              <li>1. Dc Food Bank</li>
+              <li>2. Everest Crest High</li>
+              <li>3. Weather for Two</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      </div>
-      
+        </div>
+        </div>
+
     <!-- Portfolio Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
       <!-- Independent Projects Grid -->
