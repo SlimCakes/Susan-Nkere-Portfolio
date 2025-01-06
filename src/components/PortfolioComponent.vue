@@ -18,7 +18,7 @@
               <span class="text-[40px] font-normal font-primary text-[#6C757D] mr-1">01.</span>
               Independent UX/UI Designs
             </h3>
-            <ul class="space-y-6 text-[24px] text-[#333333] font-secondary">
+            <ul class="space-y-4 text-[24px] text-[#333333] font-secondary">
               <li>1. Traclet- Mobile application</li>
               <li>2. Traclet- Landing page</li>
               <li>3. Traclet- Admin dashboard</li>
@@ -40,7 +40,7 @@
               <span class="text-[40px] font-normal font-primary text-[#6C757D] mr-1">02.</span>
               Collaborative UX/UI Designs
             </h3>
-            <ul class="space-y-6 text-[24px] text-[#333333] font-secondary">
+            <ul class="space-y-4 text-[24px] text-[#333333] font-secondary">
               <li>1. Dc Food Bank</li>
               <li>2. Everest Crest High</li>
               <li>3. Weather for Two</li>
