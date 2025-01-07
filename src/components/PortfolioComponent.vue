@@ -14,11 +14,11 @@
           <div class="absolute left-0 top-0 w-[3px] h-[198px] bg-[#DBC1AC]"></div>
           
           <div class="pl-12">
-            <h3 class="w-[515px] text-[40px] text-[#333333] font-medium font-primary mb-[16px]">
-              <span class="text-[40px] font-normal font-primary text-[#6C757D] mr-1">01.</span>
+            <h3 class="w-[515px] text-[32px] text-[#333333] font-medium font-primary mb-[16px]">
+              <span class="text-[32px] font-normal font-primary text-[#6C757D] mr-1">01.</span>
               Independent UX/UI Designs
             </h3>
-            <ul class="space-y-4 text-[24px] text-[#333333] font-secondary">
+            <ul class="space-y-4 text-[16px] text-[#333333] font-secondary">
               <li>1. Traclet- Mobile application</li>
               <li>2. Traclet- Landing page</li>
               <li>3. Traclet- Admin dashboard</li>
@@ -36,11 +36,11 @@
           <div class="absolute left-0 top-0 w-[4px] h-[198px] bg-[#DBC1AC]"></div>
           
           <div class="pl-12">
-            <h3 class="w-[515px] text-[40px] text-[#333333] font-medium font-primary mb-[16px]">
-              <span class="text-[40px] font-normal font-primary text-[#6C757D] mr-1">02.</span>
+            <h3 class="w-[515px] text-[32px] text-[#333333] font-medium font-primary mb-[16px]">
+              <span class="text-[32px] font-normal font-primary text-[#6C757D] mr-1">02.</span>
               Collaborative UX/UI Designs
             </h3>
-            <ul class="space-y-4 text-[24px] text-[#333333] font-secondary">
+            <ul class="space-y-4 text-[20px] text-[#333333] font-secondary">
               <li>1. Dc Food Bank</li>
               <li>2. Everest Crest High</li>
               <li>3. Weather for Two</li>
