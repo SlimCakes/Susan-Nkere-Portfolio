@@ -1,6 +1,6 @@
 <template>
 <section class="mt-[140px] py-16 max-w-[1440px]">
-    <div class="w-[1224px] h-[4px] bg-[#DBC1AC] mb-8"></div>
+    <div class="w-[1224px] h-[4px] bg-[#DBC1AC] mb-8 mt-[140px]"></div>
 
         <div class="flex w-[1156px]">
         <!-- Left Side: Work Experience -->
