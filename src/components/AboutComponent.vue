@@ -8,10 +8,10 @@
 
     <div class="grid grid-cols-[728px,742px]">
     <div class="grid grid-row-0 gap-[8px]">
-      <h3 class="text-[96px] font-primary font-semibold text-[#333333]">Hello there!</h3>
+      <h3 class="text-[88px] font-primary font-semibold text-[#333333]">Hello there!</h3>
       <!-- Left Column: Text Content -->
       <div class="space-y-8">
-        <p class=" w-[600px] text-[24px] font-secondary font-normal text-[#333333] leading-9">
+        <p class=" w-[600px] text-[20px] font-secondary font-normal text-[#333333] leading-9">
           I'm Susan, a UX/UI & product designer, from Nigeria. From mobile applications 
           to websites to personal portfolios, I specialise in building visually appealing 
           and user centered designs. I strive to develop key features such as empathy, 
@@ -22,8 +22,8 @@
         <!-- Skills and Software Grid -->
         <div class="grid grid-cols-2 gap-40">
           <div>
-            <h4 class="text-[36px] font-primary font-medium text-[#333333] mb-4">Skills</h4>
-            <ul class="text-[24px] font-secondary font-normal text-[#333333] space-y-1 w-[350px]">
+            <h4 class="text-[32px] font-primary font-medium text-[#333333] mb-4">Skills</h4>
+            <ul class="text-[20px] font-secondary font-normal text-[#333333] space-y-1 w-[350px]">
               <li>UI/UX Design</li>
               <li>Typography and Color Theory</li>
               <li>Prototyping</li>
@@ -37,8 +37,8 @@
             </ul>
           </div>
           <div>
-            <h4 class="text-[36px] font-primary font-medium text-[#333333] mb-4">Software</h4>
-            <ul class="text-[24px] font-secondary font-normal text-[#333333] space-y-1 w-[392px]">
+            <h4 class="text-[32px] font-primary font-medium text-[#333333] mb-4">Software</h4>
+            <ul class="text-[20px] font-secondary font-normal text-[#333333] space-y-1 w-[392px]">
               <li>Figma</li>
               <li>Adobe XD</li>
               <li>VScode</li>
@@ -61,5 +61,4 @@
       </div>
     </div>
   </section>
-  <!-- Work Experience Section -->
   </template>

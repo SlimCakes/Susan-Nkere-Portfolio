@@ -6,20 +6,20 @@
         <!-- Left Side: Work Experience -->
         <div class="grid grid-cols-[808px,348px] gap-[24px]">
           <div class="max-w-[1180px]">
-          <h3 class="text-[36px] font-primary font-medium my-[20px] text-[#333333]">Work Experience</h3>
+          <h3 class="text-[32px] font-primary font-medium my-[20px] text-[#333333]">Work Experience</h3>
 
           <div v-for="(job, index) in workExperience" :key="index">
-            <div class="grid grid-cols-[309px,492px] gap-[4px] my-[48px]">
+            <div class="grid grid-cols-[309px,492px] gap-[4px] my-[24px]">
               <!-- Left column: Period -->
               <div>
-                <p class="text-[20px] font-secondary font-semibold w-[309px] text-[#333333]">{{ job.period }}</p>
+                <p class="text-[18px] font-secondary font-semibold w-[309px] text-[#333333]">{{ job.period }}</p>
               </div>
               
               <!-- Right column: Job Details -->
               <div class="w-[492px]">
-                <p class="font-medium text-[24px] font-secondary text-[#333333]">{{ job.company }}</p>
-                <p class="text-[16px] font-secondary font-normal text-[#6C757D]">{{ job.role }}</p>
-                <ul class="list-disc space-y-2 text-[20px] font-secondary font-normal w-[492px] mt-[16px] text-[#333333]">
+                <p class="font-medium text-[20px] font-secondary text-[#333333]">{{ job.company }}</p>
+                <p class="text-[14px] font-secondary font-normal text-[#6C757D]">{{ job.role }}</p>
+                <ul class="list-disc space-y-2 text-[16px] font-secondary font-normal w-[420px] mt-[12px] mb-[20px] text-[#333333]">
                   <li v-for="(point, idx) in job.points" :key="idx">
                     {{ point }}
                   </li>
@@ -30,12 +30,12 @@
         </div>
 
         <div class="w-[348px]">
-        <h3 class="text-[36px] font-primary font-medium my-[20px] text-[#333333]">Education</h3>
+        <h3 class="text-[32px] font-primary font-medium my-[20px] text-[#333333]">Education</h3>
         <div class="space-y-2">
           <div v-for="(edu, index) in education" :key="index">
-            <p class="text-[24px] font-secondary font-medium text-[#333333] mt-[48px]">{{ edu.school }}</p>
-            <p class="text-[16px] font-secondary font-normal text-[#6C757D] mt-[4px]">{{ edu.course }}</p>
-            <p class="text-[16px] font-secondary font normal text-[#6c757d] mt-[2px]">{{ edu.year }}</p>
+            <p class="text-[20px] font-secondary font-medium text-[#333333] mt-[24px]">{{ edu.school }}</p>
+            <p class="text-[14px] font-secondary font-normal text-[#6C757D] mt-[4px]">{{ edu.course }}</p>
+            <p class="text-[12px] font-secondary font normal text-[#6c757d] mt-[2px]">{{ edu.year }}</p>
           </div>
         </div>
 
