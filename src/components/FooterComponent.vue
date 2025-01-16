@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full bg-[#DDB892]">
-    <div class="max-w-[1440px] h-[400px] mx-auto">
+  <div class="max-w-auto bg-[#DDB892]">
+    <div class="w-full h-[400px] mx-auto">
       <div class="relative w-full h-full flex flex-col justify-between p-8">
         <!-- Social Media Icons -->
         <div class="flex justify-end gap-8 pt-4">

@@ -23,7 +23,7 @@
         <div class="grid grid-cols-2 gap-40">
           <div>
             <h4 class="text-[32px] font-primary font-medium text-[#333333] mb-4">Skills</h4>
-            <ul class="text-[20px] font-secondary font-normal text-[#333333] space-y-1 w-[350px]">
+            <ol class="text-[20px] font-secondary font-normal text-[#333333] space-y-1 w-[350px]">
               <li>UI/UX Design</li>
               <li>Typography and Color Theory</li>
               <li>Prototyping</li>
@@ -34,17 +34,17 @@
               <li>CSS Techniques</li>
               <li>Version Control (Git/GitHub)</li>
               <li>Node.js</li>
-            </ul>
+            </ol>
           </div>
           <div>
             <h4 class="text-[32px] font-primary font-medium text-[#333333] mb-4">Software</h4>
-            <ul class="text-[20px] font-secondary font-normal text-[#333333] space-y-1 w-[392px]">
+            <ol class="text-[20px] font-secondary font-normal text-[#333333] space-y-1 w-[392px]">
               <li>Figma</li>
               <li>Adobe XD</li>
               <li>VScode</li>
               <li>Node.js</li>
               <li>Git & GitHub</li>
-            </ul>
+            </ol>
           </div>
         </div>
       </div>
