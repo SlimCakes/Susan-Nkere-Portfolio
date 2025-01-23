@@ -9,7 +9,7 @@
         <WorkExperienceComponent />
         <PortfolioComponent />
       </main>
-      <footer class="w-[100vw] bg-[#DDB892] h-[247px] relative left-[41%] right-[50%] -mx-[50vw]">
+      <footer class="w-[100vw] bg-[#DDB892] h-auto relative left-[41%] right-[50%] -mx-[50vw]">
         <FooterComponent />
     </footer>
   </div>
