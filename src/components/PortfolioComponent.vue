@@ -50,4 +50,22 @@
         </div>
         </div>
   </section>
+
+  <section class=" max-w-[1440px]">
+    <div class="grid grid-cols-2 gap-[64px]">
+      <div class="grid grid-rows-2 gap-[32px]">
+        <div class="pl-12">
+            <h3 class="w-[515px] text-[32px] text-[#333333] font-medium font-primary mb-[16px]">
+              <span class="text-[32px] font-normal font-primary text-[#6C757D] mr-1">02.</span>
+              Collaborative UX/UI Designs
+            </h3>
+            <ul class="space-y-4 text-[18px] text-[#333333] font-secondary">
+              <li>1. Dc Food Bank</li>
+              <li>2. Everest Crest High</li>
+              <li>3. Weather for Two</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </section>
 </template>

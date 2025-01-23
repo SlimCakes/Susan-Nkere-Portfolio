@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full" >
+  <div class="w-full h-auto" >
     <div class="flex flex-col justify-between">
         <!-- Social Media Icons -->
         <div class="flex justify-center gap-10">
