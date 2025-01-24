@@ -30,12 +30,11 @@
                 Portfolio
               </router-link>
 
-           <router-link 
-             to="/contact" 
+              <a href="mailto:Susan.nkere02@gmail.com" 
              class="px-6 py-4 bg-[#000000] text-[#ffffff] rounded-full hover:bg-gradient-to-r hover:from-[#6C757D] hover:to-[#011228] transition-all"
            >
              Contact Me
-           </router-link>
+            </a>
          </nav>
        </div>
      </header>
