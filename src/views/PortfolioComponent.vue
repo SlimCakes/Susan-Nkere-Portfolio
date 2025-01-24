@@ -1,22 +1,19 @@
 <template>
   <div>
     <HeroPP />
-    <AboutComponent />
-    <WorkExperienceComponent />
+    <PortfolioPP />
   </div>
 </template>
 
 <script>
 import HeroPP from '@/components/HeroPP.vue';
-import AboutComponent from '@/components/AboutComponent.vue'
-import WorkExperienceComponent from '@/components/WorkExperienceComponent.vue'
+import PortfolioPP from '@/components/PortfolioPP.vue';
 
 export default {
   name: 'PortfolioPage',
   components: {
     HeroPP,
-    AboutComponent,
-    WorkExperienceComponent,
+    PortfolioPP,
   },
 }
 </script>
