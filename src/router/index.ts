@@ -1,29 +1,19 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import HomePage from '@/views/HomePage.vue';
+import PortfolioPage from '@/views/PortfolioComponent.vue';
 
-// Define routes
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/",
-    name: "Home",
-    component: () => import("@/components/HeroComponent.vue"),
+    path: '/',
+    name: 'Home',
+    component: HomePage,
   },
   {
-    path: "/about",
-    name: "About",
-    component: () => import("@/components/AboutComponent.vue"),
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: PortfolioPage,
   },
-{
-  path: "/footer",
-  name: "Footer",
-  component: () => import("@/components/FooterComponent.vue"),
-},
-{
-  path: "/portfolio",
-  name: "Portfolio",
-  component: () => import("@/components/PortfolioComponent.vue"),
-},
 ];
-
 
 const router = createRouter({
   history: createWebHistory(),

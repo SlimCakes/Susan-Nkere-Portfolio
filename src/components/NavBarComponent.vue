@@ -20,14 +20,16 @@
               >  
                 Home
               </router-link>
+
               <router-link 
-                to="/portfolio" 
-                class="text-[#333333] pb-[6px] px-[12px] py-[8px] rounded-[16px]" 
+              to="/portfolio"
+              class="text-[#333333] pb-[6px] px-[12px] py-[8px] rounded-[16px]" 
                 active-class="border-b-2 border-[#FFFFFF] font-semibold" 
                 exact
               >
                 Portfolio
               </router-link>
+
            <router-link 
              to="/contact" 
              class="px-6 py-4 bg-[#000000] text-[#ffffff] rounded-full hover:bg-gradient-to-r hover:from-[#6C757D] hover:to-[#011228] transition-all"
