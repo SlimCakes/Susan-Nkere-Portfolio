@@ -1,9 +1,9 @@
 <template>
  <section>
-    <!-- Main Content -->
-    <main class="max-w-[1440px] px-auto pt-[315px]">
+    <!-- Main Content --> 
+    <main class="max-w-[375px] md:max-w-[1440px] mx-auto pt-[80px] md:pt-[315px]">
       <!-- Hero section -->
-      <div class="grid grid-cols-2 items-center gap-8">
+      <div class="grid grid-cols-2 md:grid-cols-2 items-center gap-8">
   <!-- Left Column: UX/UI Designer, Portfolio, Horizontal Line, and Name -->
   <div class="flex flex-col">
     <div class="w-[1000px] h-[309px]">
